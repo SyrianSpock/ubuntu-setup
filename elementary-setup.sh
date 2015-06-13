@@ -16,7 +16,3 @@ sudo apt-get install skype
 sudo gdebi dropbox_1.6.0_amd64.deb
 sudo apt-get install glipper icedtea-plugin gtk-recordmydesktop shutter
 
-echo "Clean up"
-sudo apt-get autoremove
-
-echo "Done"
