@@ -2,6 +2,7 @@
 
 echo "Install essential utilities"
 sudo apt-get install fish git vlc gstreamer0.10-plugins-ugly gxine libdvdread4 totem-mozilla icedax tagtool easytag id3tool lame nautilus-script-audio-convert libmad0 mpg321 gstreamer1.0-libav unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller gimp -y
+sudo apt-get install silversearcher-ag
 
 echo "To disable touchpad while typing"
 sudo add-apt-repository ppa:atareao/atareao -y
