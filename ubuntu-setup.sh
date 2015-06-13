@@ -23,9 +23,9 @@ echo "install latex"
 apt-get install texlive texlive-lang-english texlive-lang-french texlive-doc-en texlive-latex-extra -y
 
 echo "install sublime"
-cd ~/Downloads
-wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_amd64.deb
-dpkg -i sublime-text_build-3065_amd64.deb
+wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_amd64.deb
+dpkg -i sublime-text_build-3083_amd64.deb
+rm -rf sublime-text_build-3083_amd64.deb
 
 echo "Finished, reboot system"
 reboot
